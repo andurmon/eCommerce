@@ -69,10 +69,13 @@ class Crud{
         .then( products => {
             let product = products.find((product)=>product.id == req.params.id);
             if (!product) res.status(404).send({"error" : `producto ${req.params.id} no encontrado`});
-    
-            product.title = productBody.title;
-            product.price = productBody.price;
-            product.thumbnail = productBody.thumbnail;
+            let property;
+            
+            for (property in product) {
+                console.log(`${property}: ${product[property]}`);
+                if (property === "id") continue;
+                product[property] = productBody[property]
+            }
             
             writeToFile(this.ruta, products);
             res.json(product)

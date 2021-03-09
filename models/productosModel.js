@@ -9,6 +9,6 @@ module.exports = {
         codigo: Joi.string().min(3).max(30).required(),
         foto: Joi.string().min(3).max(100),
         precio: Joi.number().required(),
-        stock: Joi.number().required()
+        stock: Joi.boolean().required()
     })
 }
