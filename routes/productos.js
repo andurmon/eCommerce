@@ -3,10 +3,13 @@ const router = express.Router();
 
 const {auth} = require("../middleware/auth");
 
-const {ProductosModel} = require("../models/productosModel");
+const {productosJoiSchema, Productos} = require("../models/productos.model");
 
-const Crud = require("./Crud");
-let api = new Crud("./data/productos.txt", ProductosModel);
+// const Crud = require("../CRUD/CrudFs");
+// let api = new Crud("./data/productos.txt", productosJoiSchema);
+
+const Crud = require("../CRUD/CrudMongodb");
+let api = new Crud(Productos);
 
 router.get('/',  auth, api.get);
 router.get('/:id', api.getById);

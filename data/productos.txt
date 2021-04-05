@@ -1,1 +1,22 @@
-[{"id":1,"timestamp":"1615252221998","nombre":"Daredevil Mask","descripcion":"Mascara de Daredevil. Marvel","codigo":"asdgfw","foto":"https://cdn4.iconfinder.com/data/icons/heroes-villains-vol-2-colored/100/Daredevil-256.png","precio":654,"stock":true},{"timestamp":"1615252221998","nombre":"fdsfsdgdsg","descripcion":"Mascara de Daredevil. Marvel","codigo":"asdgfw","foto":"https://cdn4.iconfinder.com/data/icons/heroes-villains-vol-2-colored/100/Daredevil-256.png","precio":654,"stock":true,"id":2}]
+[
+    {
+        "id": 1,
+        "timestamp": "1615252221998",
+        "nombre": "Daredevil Mask",
+        "descripcion": "Mascara de Daredevil. Marvel",
+        "codigo": "asdgfw",
+        "foto": "https://cdn4.iconfinder.com/data/icons/heroes-villains-vol-2-colored/100/Daredevil-256.png",
+        "precio": 654,
+        "stock": true
+    },
+    {
+        "timestamp": "1615252221998",
+        "nombre": "fdsfsdgdsg",
+        "descripcion": "Mascara de Daredevil. Marvel",
+        "codigo": "asdgfw",
+        "foto": "https://cdn4.iconfinder.com/data/icons/heroes-villains-vol-2-colored/100/Daredevil-256.png",
+        "precio": 654,
+        "stock": true,
+        "id": 2
+    }
+]

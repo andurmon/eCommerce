@@ -5,9 +5,10 @@ const fs = require("fs");
 const Joi = require("joi");
 
 class Crud{
-	constructor(ruta, Model){
+	constructor(ruta, JoiSchema){
         this.ruta = ruta;
-        this.Model = Model;
+        this.joiSchema = JoiSchema;
+
         this.get = this.get.bind(this);
         this.getById = this.getById.bind(this);
         this.post = this.post.bind(this);
@@ -17,7 +18,7 @@ class Crud{
 
     validate(obj, res){
         try{
-            Joi.assert(obj, this.Model);            
+            Joi.assert(obj, this.joiSchema);            
         }catch(e){
             res.send({"error": e.details[0].message});
             return false;
