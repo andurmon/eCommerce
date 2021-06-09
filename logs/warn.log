@@ -14,3 +14,581 @@
 [2021-06-08T19:45:16.496] [TRACE] default - andvaesc@gmail.com
 [2021-06-08T19:45:16.497] [TRACE] default - andva
 [2021-06-08T19:45:16.582] [TRACE] default - null
+[2021-06-08T19:45:41.869] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T19:45:41.921] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T19:46:09.340] [TRACE] default - null
+[2021-06-08T19:56:35.240] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T19:56:35.275] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T19:56:41.565] [TRACE] default - null
+[2021-06-08T19:57:10.369] [TRACE] default - null
+[2021-06-08T19:59:04.889] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T19:59:04.943] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T19:59:13.145] [TRACE] default - andvaesc@gmail.com
+[2021-06-08T19:59:13.161] [TRACE] default - null
+[2021-06-08T20:01:36.251] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:01:36.316] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:01:36.330] [TRACE] default - null
+[2021-06-08T20:01:54.366] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:01:54.419] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:01:54.433] [TRACE] default - null
+[2021-06-08T20:02:16.410] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:02:16.462] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:02:16.472] [TRACE] default - null
+[2021-06-08T20:04:54.688] [TRACE] default - andvaesc@gmail.com
+[2021-06-08T20:04:54.697] [TRACE] default - {
+  avatar: '',
+  _id: 60c013511489db00ca57427b,
+  email: 'andvaesc@gmail.com',
+  password: 'andva'
+}
+[2021-06-08T20:05:38.025] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:05:38.126] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:05:38.163] [TRACE] default - {
+  avatar: '',
+  _id: 60c013511489db00ca57427b,
+  email: 'andvaesc@gmail.com',
+  password: 'andva'
+}
+[2021-06-08T20:05:39.630] [TRACE] default - andvaesc@gmail.com
+[2021-06-08T20:05:39.633] [TRACE] default - {
+  avatar: '',
+  _id: 60c013511489db00ca57427b,
+  email: 'andvaesc@gmail.com',
+  password: 'andva'
+}
+[2021-06-08T20:06:05.554] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:06:06.843] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:06:06.961] [TRACE] default - {
+  avatar: '',
+  _id: 6084b6a079c9c7f2b8d2c69c,
+  email: 'andvaesc@gmail.com',
+  password: 'andva',
+  nombre: 'Andrea',
+  apellido: 'Vallejo',
+  edad: 24,
+  alias: 'andva'
+}
+[2021-06-08T20:06:14.232] [TRACE] default - andvaesc@gmail.com
+[2021-06-08T20:06:14.349] [TRACE] default - {
+  avatar: '',
+  _id: 6084b6a079c9c7f2b8d2c69c,
+  email: 'andvaesc@gmail.com',
+  password: 'andva',
+  nombre: 'Andrea',
+  apellido: 'Vallejo',
+  edad: 24,
+  alias: 'andva'
+}
+[2021-06-08T20:06:32.645] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:06:33.896] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:06:55.204] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:06:56.484] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:06:59.483] [TRACE] default - andvaesc@gmail.com
+[2021-06-08T20:06:59.611] [TRACE] default - {
+  avatar: '',
+  _id: 6084b6a079c9c7f2b8d2c69c,
+  email: 'andvaesc@gmail.com',
+  password: 'andva',
+  nombre: 'Andrea',
+  apellido: 'Vallejo',
+  edad: 24,
+  alias: 'andva'
+}
+[2021-06-08T20:07:43.677] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:07:45.602] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:08:00.043] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:08:03.242] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:08:15.389] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:08:17.968] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:11:05.746] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:11:13.657] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:11:34.202] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:11:37.877] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:12:09.896] [TRACE] default - Se buscara un username: andvaesc@gmail.com
+[2021-06-08T20:12:10.040] [TRACE] default - {
+  avatar: '',
+  _id: 6084b6a079c9c7f2b8d2c69c,
+  email: 'andvaesc@gmail.com',
+  password: 'andva',
+  nombre: 'Andrea',
+  apellido: 'Vallejo',
+  edad: 24,
+  alias: 'andva'
+}
+[2021-06-08T20:12:10.052] [TRACE] default - Hi
+[2021-06-08T20:13:01.766] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:13:04.390] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:13:38.341] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:13:42.331] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:13:50.906] [TRACE] default - <ref *2> ServerResponse {
+  _events: [Object: null prototype] { finish: [Function: bound resOnFinish] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  outputData: [],
+  outputSize: 0,
+  writable: true,
+  destroyed: false,
+  _last: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  _defaultKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: null,
+  _hasBody: true,
+  _trailer: '',
+  finished: false,
+  _headerSent: false,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Function: socketOnError],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 5,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::8080',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 14
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 5,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::8080',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 14
+    },
+    parser: HTTPParser {
+      '0': [Function: bound setRequestTimeout],
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [IncomingMessage],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: [Circular *2],
+    [Symbol(async_id_symbol)]: 173,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _header: null,
+  _keepAliveTimeout: 5000,
+  _onPendingData: [Function: bound updateOutgoingData],
+  _sent100: false,
+  _expect_continue: false,
+  req: IncomingMessage {
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: true,
+      endEmitted: true,
+      reading: false,
+      sync: false,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: false,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] { end: [Function: clearRequestTimeout] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      [Symbol(async_id_symbol)]: 173,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    httpVersionMajor: 1,
+    httpVersionMinor: 1,
+    httpVersion: '1.1',
+    complete: true,
+    headers: {
+      host: 'localhost:8080',
+      connection: 'keep-alive',
+      'content-length': '56',
+      'sec-ch-ua': '" Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"',
+      'cache-control': 'no-cache',
+      'content-type': 'application/json',
+      'x-postman-interceptor-id': '9ea92a18-5e9c-7f04-fd7e-a0cba5a776bc',
+      'sec-ch-ua-mobile': '?0',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+      'postman-token': '097f06b4-3d30-17bb-2113-b562f9446e43',
+      accept: '*/*',
+      origin: 'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+      'sec-fetch-site': 'none',
+      'sec-fetch-mode': 'cors',
+      'sec-fetch-dest': 'empty',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'es-US,es-419;q=0.9,es;q=0.8,en;q=0.7'
+    },
+    rawHeaders: [
+      'Host',
+      'localhost:8080',
+      'Connection',
+      'keep-alive',
+      'Content-Length',
+      '56',
+      'sec-ch-ua',
+      '" Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"',
+      'Cache-Control',
+      'no-cache',
+      'Content-Type',
+      'application/json',
+      'X-Postman-Interceptor-Id',
+      '9ea92a18-5e9c-7f04-fd7e-a0cba5a776bc',
+      'sec-ch-ua-mobile',
+      '?0',
+      'User-Agent',
+      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36',
+      'Postman-Token',
+      '097f06b4-3d30-17bb-2113-b562f9446e43',
+      'Accept',
+      '*/*',
+      'Origin',
+      'chrome-extension://aicmkgpgakddgnaphhhpliifpcfhicfo',
+      'Sec-Fetch-Site',
+      'none',
+      'Sec-Fetch-Mode',
+      'cors',
+      'Sec-Fetch-Dest',
+      'empty',
+      'Accept-Encoding',
+      'gzip, deflate, br',
+      'Accept-Language',
+      'es-US,es-419;q=0.9,es;q=0.8,en;q=0.7'
+    ],
+    trailers: {},
+    rawTrailers: [],
+    aborted: false,
+    upgrade: false,
+    url: '/login',
+    method: 'POST',
+    statusCode: null,
+    statusMessage: null,
+    client: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      [Symbol(async_id_symbol)]: 173,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _consuming: true,
+    _dumped: false,
+    next: [Function: next],
+    baseUrl: '',
+    originalUrl: '/login',
+    _parsedUrl: Url {
+      protocol: null,
+      slashes: null,
+      auth: null,
+      host: null,
+      port: null,
+      hostname: null,
+      hash: null,
+      search: null,
+      query: null,
+      pathname: '/login',
+      path: '/login',
+      href: '/login',
+      _raw: '/login'
+    },
+    params: {},
+    query: {},
+    res: [Circular *2],
+    body: { email: 'andvaesc@gmail.com', password: 'andva' },
+    _body: true,
+    length: undefined,
+    _passport: { instance: [Authenticator], session: [Object] },
+    route: Route { path: '/login', stack: [Array], methods: [Object] },
+    user: {
+      avatar: '',
+      _id: 6084b6a079c9c7f2b8d2c69c,
+      email: 'andvaesc@gmail.com',
+      password: 'andva',
+      nombre: 'Andrea',
+      apellido: 'Vallejo',
+      edad: 24,
+      alias: 'andva'
+    },
+    session: { passport: [Object] },
+    authInfo: {},
+    [Symbol(kCapture)]: false,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  locals: [Object: null prototype] {},
+  [Symbol(kCapture)]: false,
+  [Symbol(kNeedDrain)]: false,
+  [Symbol(corked)]: 0,
+  [Symbol(kOutHeaders)]: [Object: null prototype] {
+    'x-powered-by': [ 'X-Powered-By', 'Express' ]
+  }
+}
+[2021-06-08T20:14:05.975] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:14:10.979] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:14:13.768] [TRACE] default - undefined
+[2021-06-08T20:14:37.478] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:14:38.853] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:14:41.795] [TRACE] default - [Function: next]
+[2021-06-08T20:14:58.848] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:15:01.025] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:15:03.315] [TRACE] default - [Function: next]
+[2021-06-08T20:15:27.609] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:15:28.951] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:15:29.600] [TRACE] default - Esito
+[2021-06-08T20:16:42.894] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:16:46.046] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:16:46.190] [TRACE] default - Esito
+[2021-06-08T20:17:48.957] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:17:50.430] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:17:50.827] [TRACE] default - Esito
+[2021-06-08T20:20:18.348] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:20:19.726] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:20:29.957] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:20:31.307] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:20:34.897] [TRACE] default - Esito
+[2021-06-08T20:20:43.779] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:20:44.848] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:20:48.617] [TRACE] default - Esito
+[2021-06-08T20:21:23.869] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:21:25.148] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T20:25:59.829] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T20:26:01.557] [INFO] default - Conexión exitosa a la base de datos
+[2021-06-08T21:21:47.993] [INFO] default - Escuchando en el Puerto: 8080
+[2021-06-08T21:21:49.529] [ERROR] default - Error al conectarse a la BD:  MongoError: Authentication failed.
+    at MessageStream.messageHandler (C:\Users\ASUS\Documents\AUPB\ProyectosyCursos\eCommerce\node_modules\mongodb\lib\cmap\connection.js:268:20)
+    at MessageStream.emit (events.js:315:20)
+    at processIncomingData (C:\Users\ASUS\Documents\AUPB\ProyectosyCursos\eCommerce\node_modules\mongodb\lib\cmap\message_stream.js:144:12)
+    at MessageStream._write (C:\Users\ASUS\Documents\AUPB\ProyectosyCursos\eCommerce\node_modules\mongodb\lib\cmap\message_stream.js:42:5)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at MessageStream.Writable.write (internal/streams/writable.js:303:10)
+    at TLSSocket.ondata (internal/streams/readable.js:719:22)
+    at TLSSocket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at TLSSocket.Readable.push (internal/streams/readable.js:223:10)
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:188:23) {
+  ok: 0,
+  code: 8000,
+  codeName: 'AtlasError'
+}

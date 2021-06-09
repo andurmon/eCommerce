@@ -10,23 +10,20 @@ const loginStrategy = new LocalStrategy(
         passReqToCallback: true
     },
     (req, username, password, done) => {
-
         Users.findOne({email: username})
         .then(userDocument => {
-            
-            logger.trace(userDocument);
             if(!userDocument) return done('Invalid Email');
 
             const passwordsMatch = password === userDocument.password;
             if (!passwordsMatch) return done('Invalid Password');
             
-            req.session.username = userDocument.nombre;
-            req.session.email = userDocument.email;
+            // req.session.username = userDocument.nombre;
+            // req.session.email = userDocument.email;
 
             return done(null, userDocument); 
         })
         .catch ((error) => {
-            done("Mail not found, please Sign Up" + error);
+            done(error);
         })
     }
 )
@@ -52,8 +49,8 @@ const signUpStrategy = new LocalStrategy(
                     throw err;
                 }
                 console.log("User Registration succesful");
-                req.session.username = newUser.nombre;
-                req.session.email = newUser.email;
+                // req.session.username = newUser.nombre;
+                // req.session.email = newUser.email;
                 return done(null, newUser);
             });                
         })

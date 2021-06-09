@@ -26,12 +26,13 @@ passport.use("signup", signUpStrategy);
 passport.serializeUser( serializeUser );
 passport.deserializeUser( deserializeUser );
 
-app.post("/login", passport.authenticate("login", {failureRedirect: '/login'} ), (req, res) => {
-    logger.trace("Hi");
-    res.redirect("/productos/vista")
+app.post("/login", passport.authenticate("login", {failureRedirect: '/failure'} ), (req, res) => {
+    logger.trace("Esito");
+    logger.trace(res.req.user);
+    res.send("LoginExitoso")
 });
 
-app.post("/signup", passport.authenticate("signup", {failureRedirect: '/signup'}), (req, res) => {
+app.post("/signup", passport.authenticate("signup", {failureRedirect: '/failure'}), (req, res) => {
     logger.debug("Request Body: ", req.body);
     res.redirect("login")
 });
@@ -39,10 +40,15 @@ app.post("/signup", passport.authenticate("signup", {failureRedirect: '/signup'}
 // ------------------- REST Api -------------------------------
 const productos = require("./src/routes/productos");
 const carritos = require("./src/routes/carritos");
+const { Users } = require('./src/models/usuarios.model');
 
 app.use("/api/products", productos);
 app.use("/api/carritos", carritos);
- 
+
+app.get("/failure", (req, res) => {
+    logger.trace("[GET] - Failure after Login/Signup")
+});
+
 http.listen(PORT, ()=>{
     logger.info(`Escuchando en el Puerto: ${PORT}`);
     
