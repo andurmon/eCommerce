@@ -1,7 +1,7 @@
-//Passport
+const { logger } = require("../../utils/logger");
 const passport = require("passport");
 const LocalStrategy = require("passport-local").Strategy;
-const { Users } = require("../models/users-model");
+const { Users } = require("../../models/usuarios.model");
 
 const loginStrategy = new LocalStrategy(
     {
@@ -10,23 +10,25 @@ const loginStrategy = new LocalStrategy(
         passReqToCallback: true
     },
     (req, username, password, done) => {
-        
+
         Users.findOne({email: username})
-            .then(userDocument => {
-                if(!userDocument) return done('Invalid Email');
+        .then(userDocument => {
+            
+            logger.trace(userDocument);
+            if(!userDocument) return done('Invalid Email');
 
-                const passwordsMatch = password === userDocument.password;
-                if (!passwordsMatch) return done('Invalid Password');
-                
-                req.session.username = userDocument.nombre;
-                req.session.email = userDocument.email;
+            const passwordsMatch = password === userDocument.password;
+            if (!passwordsMatch) return done('Invalid Password');
+            
+            req.session.username = userDocument.nombre;
+            req.session.email = userDocument.email;
 
-                return done(null, userDocument); 
-            })
-            .catch ((error) => {
-                done("Mail not found, please Sign Up" + error);
-            })
-        }
+            return done(null, userDocument); 
+        })
+        .catch ((error) => {
+            done("Mail not found, please Sign Up" + error);
+        })
+    }
 )
 
 
@@ -39,26 +41,26 @@ const signUpStrategy = new LocalStrategy(
     (req, username, password, done) => {
         console.log("Passport signup ome : " , req.body);
         Users.findOne({email: username})
-            .then(userDocument => {
-                if(userDocument) return done("Mail ya registrado");
-                
-                let newUser = new Users(req.body);
+        .then(userDocument => {
+            if(userDocument) return done("Mail ya registrado");
+            
+            let newUser = new Users(req.body);
 
-                newUser.save((err) => {
-                    if (err) {
-                        console.log("Error in Saving user: " + err);
-                        throw err;
-                    }
-                    console.log("User Registration succesful");
-                    req.session.username = newUser.nombre;
-                    req.session.email = newUser.email;
-                    return done(null, newUser);
-                });                
-            })
-            .catch ((error) => {
-                done(error);
-            })
-        }
+            newUser.save((err) => {
+                if (err) {
+                    console.log("Error in Saving user: " + err);
+                    throw err;
+                }
+                console.log("User Registration succesful");
+                req.session.username = newUser.nombre;
+                req.session.email = newUser.email;
+                return done(null, newUser);
+            });                
+        })
+        .catch ((error) => {
+            done(error);
+        })
+    }
 )
 
 const serializeUser = (user, done) => {
