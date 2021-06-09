@@ -1,9 +1,9 @@
 const express = require("express");
 const router = express.Router();
 
-const {auth} = require("../middleware/auth");
+const { auth } = require("../middleware/auth");
 
-const {productosJoiSchema, Productos} = require("../models/productos.model");
+const { productosJoiSchema, Productos } = require("../models/productos.model");
 
 // const Crud = require("../CRUD/CrudFs");
 // let api = new Crud("./data/productos.txt", productosJoiSchema);

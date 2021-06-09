@@ -1,5 +1,5 @@
 // File System y Random
-const {getFromFile, writeToFile} = require('../archivos/archivos');
+const { getFromFile, writeToFile } = require('../../persistence/archivos/archivos');
 const fs = require("fs");
 
 const Joi = require("joi");

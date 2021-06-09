@@ -3,7 +3,7 @@ const router = express.Router();
 
 const {auth} = require("../middleware/auth");
 
-const {carritosJoiSchema, Carritos} = require("../models/carritos.model")
+const { carritosJoiSchema, Carritos } = require("../models/carritos.model")
 
 // const Crud = require("../CRUD/CrudFs");
 // let api = new Crud("./data/carritos.txt", carritosJoiSchema);
