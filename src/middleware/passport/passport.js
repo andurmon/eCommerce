@@ -1,7 +1,7 @@
 const { logger } = require("../../utils/logger");
 const passport = require("passport");
 const LocalStrategy = require("passport-local").Strategy;
-const { Users } = require("../../models/usuarios.model");
+const { Users } = require("../../domain/models/usuarios.model");
 
 const loginStrategy = new LocalStrategy(
     {
@@ -36,8 +36,8 @@ const signUpStrategy = new LocalStrategy(
         passReqToCallback: true
     },
     (req, username, password, done) => {
-        console.log("Passport signup ome : " , req.body);
-        Users.findOne({email: username})
+        logger.trace("Passport signup ome : " , req.body);
+        Users.findOne({ email: username })
         .then(userDocument => {
             if(userDocument) return done("Mail ya registrado");
             
@@ -45,10 +45,10 @@ const signUpStrategy = new LocalStrategy(
 
             newUser.save((err) => {
                 if (err) {
-                    console.log("Error in Saving user: " + err);
+                    logger.error("Error in Saving user: " + err);
                     throw err;
                 }
-                console.log("User Registration succesful");
+                logger.info("User Registration succesful");
                 // req.session.username = newUser.nombre;
                 // req.session.email = newUser.email;
                 return done(null, newUser);

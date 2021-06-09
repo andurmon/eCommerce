@@ -1,14 +1,14 @@
 const express = require("express");
 const router = express.Router();
 
-const {auth} = require("../middleware/auth");
+const {auth} = require("../../middleware/auth");
 
 const { carritosJoiSchema, Carritos } = require("../models/carritos.model")
 
 // const Crud = require("../CRUD/CrudFs");
 // let api = new Crud("./data/carritos.txt", carritosJoiSchema);
 
-const Crud = require("../CRUD/CrudMongodb");
+const Crud = require("../../CRUD/CrudMongodb");
 let api = new Crud(Carritos);
 
 router.get('/', api.get);

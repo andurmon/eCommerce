@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtro</title>
+</head>
+<body>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/slate/bootstrap.min.css" integrity="sha384-8iuq0iaMHpnH2vSyvZMSIqQuUnQA7QM+f6srIdlgBrTSEyd//AWNMyEaSF2yPzNQ" crossorigin="anonymous">
+   <link rel="stylesheet" href="../styles/chat.css" crossorigin="anonymous">
+
+    <style>
+        table, th, td {
+            border: 1px solid;
+        }
+        section{
+            padding: 8px;
+            margin: 10px;
+            border: 1px solid white;
+        }
+    </style>
+    
+    <section>
+        <form id="filter" rel="noreferrer" target="_parent" >
+            <div class="container">
+                <h1>Filtro</h1>
+                <p>Para registrarse por favor llenar los siguientes datos.</p>
+                <hr>
+
+                <label for="uname"><b>Nombre</b><required>*</required></label>
+                <input type="text" class="form-control" placeholder="Ingrese Email" name="email" required>
+            
+                <label for="psw"><b>Codigo</b><required>*</required></label>
+                <input type="password" class="form-control" placeholder="Enter Password" name="password" required>
+                
+                <label for="name"><b>Precio</b><required>*</required></label>
+                <input type="text" class="form-control" placeholder="Nombre" name="nombre" required>
+    
+                <label for="apellido"><b>Stock</b><required>*</required></label>
+                <input type="text" class="form-control" placeholder="Apelido" name="apellido" required>
+    
+                <button class="btn btn-secondary" type="submit">Filtrar</button>
+            </div>
+        </form>
+    </section>
+
+</body>
+</html>

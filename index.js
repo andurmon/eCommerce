@@ -1,4 +1,3 @@
-
 require('dotenv').config();
 const PORT = process.env.PORT;
 
@@ -10,14 +9,21 @@ const express = require("express");
 const app = express();
 const http = require("http").createServer(app);
 const io = require("socket.io")(http);
+const { engine } = require("./src/views/filter");
 const passport = require("passport");
 const { logger } = require("./src/utils/logger");
 const { loginStrategy, signUpStrategy,  serializeUser,  deserializeUser } =  require("./src/middleware/passport/passport");
 
 app.use(express.json());
+app.use(express.static("public"));
 app.use(express.urlencoded({extended:true}));
 
-// ------------------- Configuring Passport -------------------
+// ------------------- Configuring Template Engine ------------
+app.set("views", "./public/views");
+app.set("view engine", "ejs");
+app.get("/filter", engine );
+
+// ---------------------- Configuring Passport ----------------
 app.use(passport.initialize());
 app.use(passport.session());
 
@@ -27,7 +33,7 @@ passport.serializeUser( serializeUser );
 passport.deserializeUser( deserializeUser );
 
 app.post("/login", passport.authenticate("login", {failureRedirect: '/failure'} ), (req, res) => {
-    logger.trace("Esito");
+    logger.trace("Login con Exito");
     logger.trace(res.req.user);
     res.send("LoginExitoso")
 });
@@ -38,9 +44,9 @@ app.post("/signup", passport.authenticate("signup", {failureRedirect: '/failure'
 });
 
 // ------------------- REST Api -------------------------------
-const productos = require("./src/routes/productos");
-const carritos = require("./src/routes/carritos");
-const { Users } = require('./src/models/usuarios.model');
+const productos = require("./src/domain/routes/productos");
+const carritos = require("./src/domain/routes/carritos");
+const { Users } = require('./src/domain/models/usuarios.model');
 
 app.use("/api/products", productos);
 app.use("/api/carritos", carritos);
